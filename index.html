@@ -2,7 +2,7 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <title>EA-VAE</title>
+  <title>SemPro-DVC</title>
   <meta name="renderer" content="webkit">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -55,7 +55,7 @@ To address these issues, we propose SemPro-DVC, a novel framework for Chinese DV
 Second, a Semantic Restoration Module (SRM) is designed to map pathological to normal speech at the semantic level, while a Prosody Restoration Module (PRM) is introduced to handle interrupted articulation and prosodic deficits in dysarthric speech.
 Experiments conducted on the large-scale Chinese CDSD corpus demonstrate that SemPro-DVC achieves state-of-the-art performance, validating the effectiveness for Chinese dysarthric voice conversion.
          </p>
-         <h1>Diagram and example of EA-VAE </h1>
+         <h1>Diagram and example of SemPro-DVC </h1>
                  <div style="text-align: center">
                   <img  src="img/framework.png" width="100%">
               </div>
@@ -63,7 +63,7 @@ Experiments conducted on the large-scale Chinese CDSD corpus demonstrate that Se
 
                    <ul>
                         <li><span class="label">Original:</span> Original dysarthric speech.</li>
-                        <li><span class="label">Reference:</span> Healthy speech from control speaker CF02.</li>
+                        <li><span class="label">Reference:</span> Healthy speech from control speaker 185.</li>
                         <li><span class="label">ASR-TTS:</span>
                            ASR-TTS system consists of an open-sourced ASR model (Whisper) and a TTS method (VITS), where this Whisper model is the same as
 the SSL feature extraction module of our framework.
